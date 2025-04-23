@@ -61,7 +61,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Glow Oasis custom colors
+				oasis: {
+					cream: '#F8F3E9',
+					sand: '#E6DFD2',
+					sage: '#C2D6C7',
+					blue: '#C7DBE6',
+					blush: '#F2D9D9',
+					gold: '#D4C7A5'
 				}
+			},
+			fontFamily: {
+				'serif': ['Playfair Display', 'serif'],
+				'sans': ['Poppins', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
